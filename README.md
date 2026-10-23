@@ -76,7 +76,17 @@ flowchart LR
 
 | 파일 | 내용 |
 |---|---|
-| `heart_disease.R` | 전체 분석 코드 (EDA → 전처리 → 4개 모델 → 평가). Kaggle에서 받은 `heart.csv`를 `data/`에 두고 실행 |
+| `heart_disease.R` | 전체 분석 코드 (EDA → 전처리 → 4개 모델 → 평가) |
 | `assets/` | 분석 당시 출력한 그래프 |
 
 `heart_disease.R`은 팀 노션에 기록한 코드 캡처를 옮겨 적은 것이며, 원본과 다른 부분(positive 지정 등)은 `[수정]` 주석으로 표시했습니다.
+
+## 실행 방법
+
+1. [Kaggle](https://www.kaggle.com/datasets/tan5577/heart-failure-dataset)에서 `heart.csv`를 받아 `data/heart.csv`에 둡니다.
+2. R 또는 RStudio에서 아래처럼 실행합니다.
+
+```r
+install.packages(c("caret", "randomForest", "kernlab", "ggplot2", "reshape2"))
+source("heart_disease.R")
+```
