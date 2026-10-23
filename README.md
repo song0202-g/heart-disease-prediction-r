@@ -8,6 +8,7 @@
 | 항목 | 내용 |
 |---|---|
 | 형태 | 머신러닝 수업 4인 팀 프로젝트 |
+| 본인 역할 | 팀원과 함께 전 과정 공동 수행 — EDA, 전처리(결측 대체·원-핫 인코딩·표준화·계층 샘플링), 4개 분류 모델 학습과 성능 비교 |
 | 사용 기술 | R, caret, randomForest, kernlab, ggplot2 |
 | 데이터 | [Kaggle Heart Failure Dataset](https://www.kaggle.com/datasets/tan5577/heart-failure-dataset) · 918명 × 12열 · 심장병 508명 / 정상 410명 |
 
